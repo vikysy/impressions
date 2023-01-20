@@ -1,0 +1,97 @@
+.cena{
+    background: #DFA650;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 20px;
+    max-width: 195px;
+    width: 100%;
+}
+
+.title{
+    font-weight: 800;
+    font-size: 80px;
+    color: #FFFFFF;
+    max-width: 828px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 20px 0 30px 0;
+}
+
+.btn{
+    max-width: 303px;
+    padding: 20px 30px;
+    background-color: #F6F1E4;
+    border-radius: 50px;
+    color: #333333;
+    font-size: 20px;
+    border: 0;
+    position: relative;
+    left: -34%;
+}
+.btn:hover{
+    background: #547147;
+}
+
+@media (max-width: 1200px) {
+    .title{
+        font-size: 60px;
+    }
+    .btn{
+        left: -30%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .cena{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 55px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cena{
+        padding: 10px 20px;
+        font-size: 12px;
+        max-width: 105px;
+    }
+    .title{
+        font-size: 28px;
+        margin: 15px 0 20px 0;
+    }
+    .btn{
+        font-size: 14px;
+        max-width: 214px;
+        padding: 11px 22px;
+        left: -20%;
+    }
+}
+
+@media (max-width: 524px) {
+    .cena{
+        padding: 8px 15px;
+        font-size: 12px;
+        max-width: 105px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 14px;
+        max-width: 214px;
+        padding: 8px 18px;
+        left: -20%;
+    }
+}
+
+@media (max-width: 467px) {
+    .btn{
+        display: none;
+    }
+}

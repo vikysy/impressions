@@ -1,0 +1,50 @@
+.df{
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dfl{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+p{
+    margin: 0 0 0 12px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+img{
+    padding-right: 12px;
+}
+
+@media (max-width: 1147px) {
+    .df{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .dfl{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 900px) {
+    .df{
+        flex-direction: column;
+        margin: 0 auto 60px auto;
+        max-width: 460px;
+        width: 100%;
+    }
+    .dfl{
+        max-width: 450px;
+        align-self: flex-start;
+    }
+    p{
+        font-size: 14px;
+    }
+}

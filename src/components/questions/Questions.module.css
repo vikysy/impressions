@@ -1,0 +1,37 @@
+.containerQuestions{
+    border-bottom: 1px solid #547147;
+    padding-bottom: 95px;
+    margin-bottom: 60px;
+}
+
+.h1{
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+}
+
+.containerInfo{
+    color: #333333;
+}
+
+@media (max-width: 820px) {
+    .h1{
+        font-size: 35px;
+    }
+}
+@media (max-width: 695px) {
+    .h1{
+        font-size: 30px;
+    }
+    .containerQuestions{
+        padding-bottom: 60px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 589px) {
+    .h1{
+        font-size: 21px;
+    }
+}

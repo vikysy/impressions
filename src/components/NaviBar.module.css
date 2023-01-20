@@ -1,0 +1,41 @@
+.myNavbar{
+    margin-bottom: 40px;
+    padding: 0 0 16px 0;
+    border-bottom: 1px solid #547147;
+}
+
+.myNavbarRight{
+    max-width: 715px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myNavbarRight a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+    ;
+}
+
+.myNavbarRight a:hover{
+    text-decoration: underline #333333;
+}
+
+.container_my {
+    max-width: 1330px;
+    margin: 16px auto;
+    padding: 0 15px;
+}
+
+.social{
+    max-width: 40px;
+}
+.divRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 277px;
+}

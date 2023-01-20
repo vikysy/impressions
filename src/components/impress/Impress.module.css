@@ -1,0 +1,128 @@
+.elem{
+    max-width: 407px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    position: relative;
+}
+
+.sale{
+    position: absolute;
+    top:0;
+    right: 0;
+    max-width: 114px;
+    background: #DFA650;
+    border-radius: 0px 20px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    z-index: 10;
+    text-decoration: none;
+}
+.sale.none{
+    display: none;
+}
+.sale:hover{
+    color: #333333;
+    border: 1px solid #333333;
+}
+
+.h3{
+    margin: 30px 0 44px 0;
+    font-weight: 600;
+    font-size: 25px;
+    color: #333333;
+    text-align: center;
+}
+
+.p{
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    color: #333333;
+}
+
+.order{
+    max-width: 270px;
+    background: #547147;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 12px 84px; 
+    border: 0;
+    margin: 24px 0 21px 0;
+}
+.order:hover{
+    color: #333333;
+}
+
+.detail{
+    font-weight: 500;
+    font-size: 20px;
+    color: #888888;
+    border: 0;
+    background: #FFFFFF;
+    margin-bottom: 28px;
+}
+.detail:hover{
+    color: #333333;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 1321px) {
+    .elem{
+        max-width: 395px;
+    }
+}
+@media (max-width: 1287px) {
+    .elem{
+        max-width: 385px;
+    }
+}
+@media (max-width: 1254px) {
+    .elem{
+        max-width: 365px;
+    }
+    .h3{
+        font-size: 20px;
+    }
+}
+@media (max-width: 799px) {
+    .h1{
+        font-size: 21px;
+        text-align: center;
+    }
+    .elem{
+        max-width: 158px;
+    }
+    .sale{
+        max-width: 46px;
+        padding: 3px 5px;
+        font-size: 10px;
+        border-radius: 0px 8px;
+    }
+    .h3{
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    .p{
+        font-size: 20px;
+    }
+    .order{
+        max-width: 138px;
+        font-size: 12px;
+        padding: 8px 40px;
+        margin: 18px 0;
+    }
+    .detail{
+        font-size: 12px;
+        padding: 8px 40px;
+        margin-bottom: 12px;
+    }
+}

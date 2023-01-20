@@ -1,0 +1,173 @@
+.footer{
+    margin-bottom: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logoDiv{
+    max-width: 261px;
+}
+
+.logoDiv img{
+    width: 100%;
+}
+
+.logoBlock p{
+    margin: 28px 0 0 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #888888;
+}
+
+.navigation{
+    max-width: 444px;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-weight: 600;
+    gap: 20px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #333333;
+}
+.navigation a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #547147;
+}
+
+.menu{
+    color: #333333;
+}
+
+.menu h3{
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.menu ul li{
+    margin-bottom: 20px;
+}
+.menu ul li::before{
+    margin: 0;
+    display: none;
+}
+.menu ul li:last-child{
+    margin-bottom: 0;
+}
+.menu a{
+    font-size: 16px;
+}
+
+.number a{
+    font-size: 30px;
+}
+
+.social{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.request{
+    max-width: 320px;
+    color: #333333;
+}
+.request h1{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.request p{
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+.request button{
+    max-width: 244px;
+    background-color: #547147;
+    border-radius: 40px;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 16px 32px;
+}
+.request button:hover{
+    color: #333333;
+}
+
+.law{
+    font-weight: 400;
+    font-size: 14px;
+    color: #888888;
+    display: none;
+}
+
+@media (max-width: 1210px) {
+    .navigation{
+        max-width: 375px;
+    }
+    .number a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .logoBlock{
+        display: none;
+    }
+    .law{
+        display: block;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 589px) {
+    .footer{
+        margin: 0 auto 40px auto;
+        max-width: 375px;
+        align-items: start;
+        gap: 30px
+    }
+    .menu h3{
+        font-size: 20px;
+    }
+    .menu a{
+        font-size: 14px;
+    }
+    .number a{
+        font-size: 21px;
+    }
+    .request h1{
+        font-size: 21px;
+        text-align: left;
+    }
+    .request p{
+        font-size: 14px;
+    }
+    .request button{
+        max-width: 170px;
+        font-size: 14px;
+        padding: 11px 22px;
+    }
+}
+
+@media (max-width: 320px) {
+    .number a{
+        font-size: 18px;
+    }
+    .law{
+        font-size: 12px;
+    }
+}

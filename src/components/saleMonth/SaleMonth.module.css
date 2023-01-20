@@ -1,0 +1,32 @@
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 923px) {
+    .container{
+        background-image: url(./bgMobile.png);
+        max-width: 332px;
+        margin: 60px auto 0 auto;
+    }
+}
+
+.slider{
+    width: 100%;
+    position: relative;
+}
+.sliderTrack{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.sliderItem{
+    min-width: 100%;
+}
+

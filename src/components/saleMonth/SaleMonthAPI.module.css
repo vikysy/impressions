@@ -1,0 +1,142 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerText{
+    margin: 45px 0 30px 0;
+}
+
+.saleTitle{
+    background-image: url(saleTitleBG.svg);
+    background-repeat: no-repeat;
+    max-width: 379px;
+}
+.saleTitle h3{
+    margin: 0;
+    padding: 15px 56px 14px 60px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.saleElemInfo{
+    margin: 20px 0 0 60px;
+}
+
+.saleElemInfo h1{
+    max-width: 579px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #404936;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.saleElemInfo p{
+    margin: 0;
+    font-weight: 700;
+    font-size: 35px;
+    color: #404936;
+}
+
+.saleElemInfo p del{
+    margin-right: 31px;
+    color: #A3A3A3;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.saleElemInfo button{
+    margin: 31px 0 0 0;
+    border: 0;
+    max-width: 291px;
+    padding: 12px 24px;
+    background: #547147;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;  
+}
+.saleElemInfo button:hover{
+    color: #333333;
+}
+
+.saleImgRight{
+    max-width: 555px;
+}
+.saleImgRight img{
+    width: 100%;
+}
+.saleImgMobile{
+    display: none;
+}
+
+@media (max-width: 1224px) {
+    .saleElemInfo h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 1136px) {
+    .containerText{
+        margin: 25px 0 20px 0;
+    }
+    .saleTitle{
+        max-width: 239px;
+        background-image: url(saleTitleBgMobile.svg);
+    }
+    .saleElemInfo{
+        margin: 15px 0 0 40px;
+    }
+    .saleTitle h3{
+        font-size: 20px;
+        padding: 15px 44px 15px 20px;
+    }
+    .saleElemInfo h1{
+        font-size: 30px;
+    }
+    .saleElemInfo p{
+        font-size: 30px;
+    }
+    .saleElemInfo p del{
+        font-size: 22px;
+    }
+}
+@media (max-width: 923px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .saleElemInfo{
+        margin: 20px 0 0 20px;
+    }
+    .saleElemInfo h1{
+        text-align: left;
+        max-width: 275px;
+    }
+    .saleElemInfo p del{
+        margin-right: 30px;
+    }
+    .saleElemInfo button{
+        margin: 25px 0 0 0;
+        border: 0;
+        max-width: 295px;
+        padding: 11px 62px;
+        font-size: 14px;  
+    }
+    .saleImgRight{
+        display: none;
+    }
+    .saleImgMobile{
+        display: block;
+    }
+}
+@media (max-width: 320px) {
+    .saleElemInfo p{
+        font-size: 25px;
+    }
+    .saleElemInfo button{
+        padding: 11px 50px;
+    }
+}
