@@ -31,7 +31,7 @@ const list = [
     id: uuid(),
     img: img1,
     imgImpress: img1Impress,
-    sale: true,
+    sale: false,
     title: "Конная прогулка",
     price: "от 990 ₽",
     priceSelect: {

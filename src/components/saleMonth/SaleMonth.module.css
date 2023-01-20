@@ -15,18 +15,36 @@
     }
 }
 
-.slider{
-    width: 100%;
-    position: relative;
+.my_carousel button[data-bs-target]{
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid #547147;
+    opacity: 1;
+    margin-bottom: 6rem;
 }
-.sliderTrack{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-.sliderItem{
-    min-width: 100%;
+.my_carousel button[aria-current="true"] {
+    background-color: #547147;
 }
 
+@media (max-width: 1224px) {
+    .my_carousel button[data-bs-target]{
+        margin-bottom: 4rem;
+    }
+}
+@media (max-width: 1136px) {
+    .my_carousel button[data-bs-target]{
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 923px) {
+    .my_carousel button[data-bs-target]{
+        margin-bottom: 19rem;
+    }
+}
+@media (max-width: 351px) {
+    .my_carousel button[data-bs-target]{
+        margin-bottom: 17rem;
+    }
+}

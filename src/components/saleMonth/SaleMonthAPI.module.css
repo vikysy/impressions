@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .saleElemInfo button{
-    margin: 31px 0 0 0;
+    margin: 31px 0 76px 0;
     border: 0;
     max-width: 291px;
     padding: 12px 24px;
@@ -119,7 +119,7 @@
         margin-right: 30px;
     }
     .saleElemInfo button{
-        margin: 25px 0 0 0;
+        margin: 25px 0 32px 0;
         border: 0;
         max-width: 295px;
         padding: 11px 62px;
